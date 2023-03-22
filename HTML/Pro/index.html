@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+</head>
+<body>
+
+    <!--List-->
+    <!--Unordered list-->
+    <ul>
+        <li>Apple</li>
+        <!--sub list-->
+        <ul>
+            <li>color: Red</li>
+            <li>Season: Winters</li>
+        </ul>
+        <li>Mango</li>
+        <!--sub list-->
+        <ul>
+            <li>color: Yellow</li>
+            <li>Season: Summers</li>
+        </ul>
+        <li>Banana</li>
+    </ul>
+    <br/>
+    <br/>
+    <!--Ordered list-->
+    <ol>
+        <li>Apple</li>
+        <!--sub list-->
+        <ul>
+            <li>color: Red</li>
+            <li>Season: Winters</li>
+        </ul>
+        <li>Mango</li>
+        <!--sub list-->
+        <ul>
+            <li>color: Yellow</li>
+            <li>Season: Summers</li>
+        </ul>
+        <li>Banana</li>
+    </ol>
+
+    <br/>
+    <hr>
+    <br/>
+
+
+    <!--Table-->
+    <table>
+        <!--table head-->
+        <thead>
+            <!--Caption-->
+            <caption>Student Data</caption>
+            <tr>
+                <th> Name </th>
+                <th> Roll no.</th>
+            </tr>
+        </thead>
+
+        <!--table body-->
+        <tbody>
+            <tr>
+                <td> Dwij </td>
+                <td> 76 </td>
+            </tr>
+            <tr>
+                <td> Nidhi </td>
+                <td> 86 </td>
+            </tr>
+            <tr>
+                <td> Nirali </td>
+                <td> 96 </td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+    <br/>
+
+    <!--Table-->
+    <table>
+        <!--table head-->
+        <thead>
+            <!--Caption-->
+            <caption>Student Data</caption>
+            <tr>
+                <!--colspan to merge cells-->
+                <th colspan="2"> INFORMATION </th>
+            </tr>
+        </thead>
+
+        <!--table body-->
+        <tbody>
+            <tr>
+                <td> Dwij </td>
+                <td> 76 </td>
+            </tr>
+            <tr>
+                <td> Nidhi </td>
+                <td> 86 </td>
+            </tr>
+            <tr>
+                <td> Nirali </td>
+                <td> 96 </td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+    <br/>
+    <hr>
+
+
+    <!--Form-->
+    <h4>Registration form</h4>
+    <form action="./action.php">
+        <input type="text" placeholder="Enter your name">
+        <br>
+        <br>
+        <input type="password" placeholder="Enter password">
+        <br>
+        <br>
+        <br>
+
+        <!--best use of Label-->
+        <h5>Select your standard</h5>
+        <label for="id1">
+            <input type="radio" value="class X" name="class" id="id1"> Class X
+        </label>
+        <br>
+        <label for="id2">
+            <input type="radio" value="class XII" name="class" id="id2"> Class XII
+        </label>
+        <br>
+        <br>
+        <br>
+
+        <h5>Select your subjects</h5>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="math">Math
+        </label>
+        <br>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="phy">Physics
+        </label>
+        <br>
+        <label for="sci">
+            <input type="checkbox" value="sci" name="subject" id="sci">Science
+        </label>
+        <br>
+        <label for="comp">
+            <input type="checkbox" value="comp" name="subject" id="comp">Computer
+        </label>
+        <br>
+        <br>
+        <br>
+        
+        <h5>City</h5>
+        <!--Select dropdown-->
+        <select name="city" id="city">
+            <option value="-">Please select your city</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Vadodara">Vadodara</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!--Text area to take user input-->
+        <textarea name="feedback" id="111" placeholder="Please give your feedback" rows="5">Feedback</textarea>
+        <br>
+        <br>
+        <br>
+
+        <!--To submit the form-->
+        <input type="submit" value="submit">
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </form>
+    <hr>
+    <!--website inside the website-->
+    <!--adding youtube video-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <br>
+    <iframe width="560" height="600" src="https://app.daily.dev/dwijmistry"></iframe>
+    <br>
+    <br>
+    <iframe width="900" height="200" src="https://en.wikipedia.org/wiki/India"></iframe>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <!--adding Video-->
+    <video src="./video.mp4" controls loop width="300"></video>
+
+</body>
+</html>
